@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1 Skills Test</title>
+    <link rel="stylesheet" href="styles_Q1SkillsTest.css">
+</head>
+<body>
+
+    <h1>OBMC Robotics Club Application Form</h1>
+
+    <!-- Introduction Section -->
+    <h2>About Our Club</h2>
+    <p>Welcome to the official OBMC Robotics Club page! Our club helps students learn how to design, build, and program cool robots. Beginners and experienced students are all welcome to join us.</p>
+    
+    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500" alt="Robotics Image" width="400">
+
+    <p>Want to see what youth robotics looks like? Check out this <a href="https://www.firstinspires.org/robotics/ftc" target="_blank">Robotics Article</a> for more information.</p>
+
+    <!-- Lists Section -->
+    <h2>Club Info</h2>
+
+    <h3>Steps to Join</h3>
+    <ol>
+        <li>Fill out the form below.</li>
+        <li>Go to the orientation day.</li>
+        <li>Get assigned to a team.</li>
+    </ol>
+
+    <h3>What You Will Learn</h3>
+    <ul>
+        <li>Basic computer programming</li>
+        <li>How to build robot parts</li>
+        <li>Working in a team</li>
+    </ul>
+
+    <h3>Club Roles</h3>
+    <dl>
+        <dt>Coder</dt>
+        <dd>Writes the code to make the robot move.</dd>
+        <dt>Builder</dt>
+        <dd>Assembles the motors and mechanical pieces.</dd>
+    </dl>
+
+    <hr>
+
+    <!-- Application Form -->
+    <h2>Application Form</h2>
+    <form action="#" method="post">
+        
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Year Level:</label><br>
+        <input type="radio" id="g7" name="year_level" value="Grade 7">
+        <label for="g7">Grade 7</label><br>
+        <input type="radio" id="g8" name="year_level" value="Grade 8">
+        <label for="g8">Grade 8</label><br>
+        <input type="radio" id="g9" name="year_level" value="Grade 9">
+        <label for="g9">Grade 9</label><br>
+        <input type="radio" id="g10" name="year_level" value="Grade 10">
+        <label for="g10">Grade 10</label><br><br>
+
+        <label>Areas of Interest:</label><br>
+        <input type="checkbox" id="coding" name="interest" value="Coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="building" name="interest" value="Building">
+        <label for="building">Building</label><br>
+        <input type="checkbox" id="wiring" name="interest" value="Wiring">
+        <label for="wiring">Wiring</label><br><br>
+
+        <label for="campus">OBMC Campus:</label><br>
+        <select id="campus" name="campus">
+            <option value="Greenhills">Greenhills</option>
+            <option value="Angeles">Angeles</option>
+            <option value="Fairview">Fairview</option>
+            <option value="Las Pinas">Las Pinas</option>
+            <option value="Sta. Ana">Sta. Ana</option>
+        </select><br><br>
+
+        <label for="reason">Why do you want to join?</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit Form">
+
+    </form>
+
+</body>
+</html>
